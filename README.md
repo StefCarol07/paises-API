@@ -20,7 +20,7 @@ Para ello, el proyecto está conformado por los siguientes archivos:
   °js/ caracteristicas.js : Este archivo maneja todas las funcionalidades de la barra de búsqueda y el filtro por región,   
   que facilitan el acceso a información específica de toda la extraída de la API y desplegada en la vista  
   
- Finalmente, con Github Pages se despliega la app y nos arroja la siguiente URL: https://stefcarol07.github.io/paises-API/
+ Finalmente, con Github Pages se despliega la app y obtenemos la siguiente URL para acceder a la vista:   https://stefcarol07.github.io/paises-API/
 
 
 
