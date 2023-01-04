@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Paises</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="contenido contenido-navbar">
+            <h1>Sin fronteras</h1>
+            <button id="button" onclick="location.href='https://www.google.com/maps/?hl=es'" target="_blank"> Ver en el mapa </button>
+        </div>
+    </nav>
+
+    <header class="contenido contenido-filtro my-2">
+    <div class="searcher" id="search">
+            <input type="search" placeholder="Buscar país..." id="inputSearch">
+            <i class="fas fa-search"></i>
+    </div>
+
+    <div class="dropdown" id="filter">
+        Filtrar por región
+        <i class="fas fa-chevron-down"></i>
+        <ul>
+            <li>All</li>
+            <li>Africa</li>
+            <li>Americas</li>
+            <li>Asia</li>
+            <li>Europe</li>
+            <li>Oceania</li>
+        </ul>
+    </div>
+
+</header>
+
+<main class="contenido cuadricula" id="flags">
+
+    <article class="card">
+        <img src="https://flagcdn.com/dz.svg" alt="" class="img-flag">
+        <div class="card-content">
+            <h3>Nombre completo</h3>
+            <p>
+                <strong>Capital:</strong>
+                
+            </p>
+            <p>
+                <strong>Gentilicio:</strong>
+            
+            </p>
+            <p>
+                <strong>Área total:</strong>
+                
+            </p>
+
+            <p class="region">
+                <strong>Region:</strong>
+                
+            </p>
+
+        </div>
+    </article>
+
+</main>
+
+    <script src="js/app.js"></script>
+    <script src="js/caracteristicas.js"></script>
+    
+</body>
+</html>
